@@ -3,7 +3,7 @@
 
 Here, an user can set his goals by adding list of to-do tasks.
 He/she can update his regular task list and delete if needed.
-Besides, all the tasks are added and updated with recent data and time.
+Besides, all the tasks are added and updated in recycler view with recent data and time.
 
 
 ## Topics:
