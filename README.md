@@ -7,10 +7,12 @@ Besides, all the tasks are added and updated with recent data and time.
 
 
 ## Topics:
-1. RecyclerView
-2. CardView
-3. Adapter
-4. MVVM architecture
-5. Repository 
-6. Kotlin Coroutine
-7. Live Data
+1.Splash Screen with Threading
+2. RecyclerView
+3. CardView
+4. Adapter
+5. MVVM architecture
+6. Repository 
+7. Kotlin Coroutine
+8. Live Data
+9. Room Database
