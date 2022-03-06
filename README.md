@@ -19,7 +19,7 @@ The project is built with Kotlin following the MVVM architecture. Besides, the R
 10. Material UI Components
 
 ## Screenshots:
-<img align="middle" src="./Screenshots/Screenshot_20220306-123142.png" width="200" height="400" title="Welcome Screen" />
-<img src="./Screenshots/Screenshot_20220306-124723.png" width="200" height="400" title="Home Screen" />
-<img src="./Screenshots/Screenshot_20220306-131947.png" width="200" height="400" title="Add Notes Screen"  />
-<img src="./Screenshots/Screenshot_20220306-132000.png" width="200" height="400" title="Udpate and Show Notes Screen" />
+<img align="middle" src="./Screenshots/Screenshot_20220306-123142.png" width="400" height="600" title="Welcome Screen" />
+<img src="./Screenshots/Screenshot_20220306-124723.png" width="400" height="600" title="Home Screen" />
+<img src="./Screenshots/Screenshot_20220306-131947.png" width="400" height="600" title="Add Notes Screen"  />
+<img src="./Screenshots/Screenshot_20220306-132000.png" width="400" height="600" title="Udpate and Show Notes Screen" />
