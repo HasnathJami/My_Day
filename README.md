@@ -17,3 +17,5 @@ Besides, all the tasks are added and updated in recycler view with recent data a
 8. Live Data  
 9. Room Database  
 10. Material UI Components
+
+## Screenshots:
