@@ -9,7 +9,7 @@ The project is built with Kotlin following the MVVM architecture. Besides, the R
 ## Features:
 1. To-do Task List System
 2. Adding New Task System
-3. Deleting Task System
+3. Deleting Task from Task List System
 4. Realtime Task Updating System with Recent Data and Time
 
 ### Languages: 
