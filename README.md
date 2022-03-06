@@ -1,4 +1,4 @@
-# My_Day
+# Project Description
 
 
 Here, an user can set his goals by adding list of to-do tasks.
