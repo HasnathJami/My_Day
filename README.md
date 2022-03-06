@@ -1,10 +1,16 @@
 # Project Description
 
 
-Here, an user can set his goals by adding list of to-do tasks.
+Here, a user can set his goals by adding list of to-do tasks.
 He/she can update his regular task list and delete if needed.
 Besides, all the tasks are added and updated instantly in RecyclerView with recent data and time using LiveData and Kotlin coroutines.
 The project is built with Kotlin following the MVVM architecture. Besides, the Room database is used for storing user data.
+
+## Features:
+1. To-do Task List System
+2. Adding New Task System
+3. Deleting Task System
+4. Realtime Task Updating System with Recent Data and Time
 
 ### Languages: 
 Kotlin
