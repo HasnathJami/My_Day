@@ -19,4 +19,4 @@ The project is built with Kotlin following the MVVM architecture. Besides, the R
 10. Material UI Components
 
 ## Screenshots:
-<img src="./Screenshots/Screenshot_20220306-123142.PNG" width="500" height="500" title="design"     />
+<img src="./Screenshots/Screenshot_20220306-123142.PNG" width="200" height="400" title="design"     />
