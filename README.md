@@ -3,8 +3,8 @@
 
 Here, an user can set his goals by adding list of to-do tasks.
 He/she can update his regular task list and delete if needed.
-Besides, all the tasks are added and updated in recycler view with recent data and time.
-
+Besides, all the tasks are added and updated instantly in RecyclerView with recent data and time using LiveData and Kotlin coroutines.
+The project is built with Kotlin following the MVVM architecture. Besides, the Room database is used for storing user data.
 
 ## Topics:
 1.Splash Screen with Threading  
