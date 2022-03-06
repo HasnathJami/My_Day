@@ -20,3 +20,10 @@ The project is built with Kotlin following the MVVM architecture. Besides, the R
 
 ## Screenshots:
 <img src="./Screenshots/Screenshot_20220306-123142.PNG" width="200" height="400" title="design"     />
+
+<img src="./Screenshots/Screenshot_20220306-123142.PNG" width="200" height="400" title="design"     />
+
+<img src="./Screenshots/Screenshot_20220306-123142.PNG" width="200" height="400" title="design"     />
+
+
+<img src="./Screenshots/Screenshot_20220306-123142.PNG" width="200" height="400" title="design"     />
