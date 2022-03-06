@@ -8,7 +8,9 @@ The project is built with Kotlin following the MVVM architecture. Besides, the R
 
 
 ## Screenshots:
-<img src="./Screenshots/Screenshot_20220306-123142.png" width="300" height="500" title="Welcome Screen" />   <img src="./Screenshots/Screenshot_20220306-124723.png" width="300" height="500" title="Home Screen" />    <img src="./Screenshots/Screenshot_20220306-131947.png" width="300" height="500" title="Add Notes Screen"  />   <img src="./Screenshots/Screenshot_20220306-132000.png" width="300" height="500" title="Udpate and Show Notes Screen" />
+<img src="./Screenshots/Screenshot_20220306-123142.png" width="300" height="500" title="Welcome Screen" />    <img src="./Screenshots/Screenshot_20220306-124723.png" width="300" height="500" title="Home Screen" /> 
+
+<img src="./Screenshots/Screenshot_20220306-131947.png" width="300" height="500" title="Add Notes Screen"  />    <img src="./Screenshots/Screenshot_20220306-132000.png" width="300" height="500" title="Udpate and Show Notes Screen" />
 
 
 ## Topics:
