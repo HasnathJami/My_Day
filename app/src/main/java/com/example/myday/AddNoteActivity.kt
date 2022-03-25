@@ -1,10 +1,10 @@
 package com.example.myday
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.example.myday.ViewModel.GoalNoteViewModel
 import com.example.myday.model.GoalNoteEntityModel
@@ -21,6 +21,7 @@ class AddNoteActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_note)
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
         viewModel=ViewModelProvider(this,ViewModelProvider.AndroidViewModelFactory.getInstance(application)).get(GoalNoteViewModel::class.java)
 
@@ -89,5 +90,10 @@ class AddNoteActivity : AppCompatActivity() {
 
         })
 
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return super.onSupportNavigateUp()
     }
 }

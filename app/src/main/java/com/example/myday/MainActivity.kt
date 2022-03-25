@@ -2,10 +2,11 @@ package com.example.myday
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
 import android.view.View
 import android.widget.Toast
-import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
@@ -19,6 +20,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(),NoteClickDeleteInterface,NoteClickInterface {
     lateinit var viewModel:GoalNoteViewModel
+    lateinit var goalNoteAdapter:GoalNoteAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
@@ -28,7 +30,7 @@ class MainActivity : AppCompatActivity(),NoteClickDeleteInterface,NoteClickInter
 
 
         recyclerViewId.layoutManager=StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL)
-        val goalNoteAdapter=GoalNoteAdapter(this,this,this)
+        goalNoteAdapter=GoalNoteAdapter(this,this,this)
         recyclerViewId.adapter=goalNoteAdapter
 
 
@@ -42,6 +44,31 @@ class MainActivity : AppCompatActivity(),NoteClickDeleteInterface,NoteClickInter
 
 
         })
+
+
+
+
+
+
+
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.search_menu, menu)
+        val menuItem = menu.findItem(R.id.search_from_menuId)
+        val searchView = menuItem.actionView as SearchView
+        searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+            override fun onQueryTextSubmit(query: String): Boolean {
+                return false
+            }
+
+            override fun onQueryTextChange(newText: String): Boolean {
+
+                goalNoteAdapter.filter.filter(newText);
+                return false
+            }
+        })
+        return super.onCreateOptionsMenu(menu)
     }
 
     fun addNotesFloatingButton(view: View) {
@@ -52,7 +79,7 @@ class MainActivity : AppCompatActivity(),NoteClickDeleteInterface,NoteClickInter
         val intent = Intent(this,AddNoteActivity::class.java)
 
         startActivity(intent)
-        this.finish()
+        //this.finish()
 
     }
 
@@ -74,7 +101,7 @@ class MainActivity : AppCompatActivity(),NoteClickDeleteInterface,NoteClickInter
 
 
         startActivity(intent)
-        this.finish()
+       // this.finish()
 
     }
 
