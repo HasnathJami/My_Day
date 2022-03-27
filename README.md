@@ -38,7 +38,7 @@ Android Studio
 7. Kotlin Coroutine  
 8. Live Data  
 9. Room Database  
-10. Material UI Components
-11. Volley
-12. Glide
-13. WebView
+10. Material UI Components  
+11. Volley  
+12. Glide  
+13. WebView  
