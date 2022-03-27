@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.Toolbar
 import androidx.lifecycle.ViewModelProvider
 import com.example.myday.ViewModel.GoalNoteViewModel
 import com.example.myday.model.GoalNoteEntityModel
@@ -13,18 +12,15 @@ import kotlinx.android.synthetic.main.activity_add_note.*
 import java.text.SimpleDateFormat
 import java.util.*
 
-class AddNoteActivity : AppCompatActivity() {
+class TextActivity : AppCompatActivity() {
 
     lateinit var viewModel:GoalNoteViewModel
-    private var fetchNoteId=-1
+    var fetchNoteId=-1
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_add_note)
-
-        val toolbar: Toolbar =findViewById(R.id.toolBarGoalNoteId)
-        setSupportActionBar(toolbar)
+        setContentView(R.layout.activity_text)
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
         viewModel=ViewModelProvider(this,ViewModelProvider.AndroidViewModelFactory.getInstance(application)).get(GoalNoteViewModel::class.java)
@@ -43,11 +39,11 @@ class AddNoteActivity : AppCompatActivity() {
             descriptionId.setText(fetchNoteDescription)
 
             saveButtonId.text="Update"
-           // setTitle("Update Task")
+            setTitle("Update Task")
         }
         else{
 
-           // setTitle("Save Task")
+            setTitle("Save Task")
             saveButtonId.text="Save"
         }
 

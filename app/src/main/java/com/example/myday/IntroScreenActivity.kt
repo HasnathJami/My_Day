@@ -3,8 +3,6 @@ package com.example.myday
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import android.view.Window
-import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 
 class IntroScreenActivity : AppCompatActivity() {
@@ -15,7 +13,7 @@ class IntroScreenActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_intro_screen)
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
-        supportActionBar?.hide()
+
 
 
 
@@ -26,7 +24,7 @@ class IntroScreenActivity : AppCompatActivity() {
                 } catch (e: Exception) {
                     e.printStackTrace()
                 } finally {
-                    val intent = Intent(this@IntroScreenActivity, MainActivity::class.java)
+                    val intent = Intent(this@IntroScreenActivity, WhatsUpTodayMainActivity::class.java)
                     startActivity(intent)
                     finish()
                 }

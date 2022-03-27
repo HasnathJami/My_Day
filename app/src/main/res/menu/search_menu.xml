@@ -5,7 +5,11 @@
         android:id="@+id/search_from_menuId"
         android:title="Search menu"
         android:icon="@drawable/search_icon"
-        app:showAsAction="always"
+        app:showAsAction="ifRoom|withText"
 
-        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+
+
+         />
 </menu>
+

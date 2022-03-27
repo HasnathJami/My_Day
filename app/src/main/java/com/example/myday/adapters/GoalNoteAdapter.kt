@@ -6,6 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Filter
 import android.widget.Filterable
+import android.widget.ImageButton
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myday.R
 import com.example.myday.model.GoalNoteEntityModel
@@ -21,14 +23,13 @@ class GoalNoteAdapter(
 
     private val allGoalNotes = ArrayList<GoalNoteEntityModel>()
     private var backup=ArrayList<GoalNoteEntityModel>()
-   // backup = java.util.ArrayList<ResponseModelBookLibraryBackup?>(data )
-    //backup:GoalNoteEntityModel= ArrayList<GoalNoteEntityModel>(allGoalNotes)
+
 
 
     inner class viewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val titleRef = itemView.titleId
-        val timestampRef = itemView.timeStampId
-        val deleteButtonRef = itemView.imageButtonId
+        val titleRef = itemView.findViewById<TextView>(R.id.goalNoteTitleId)
+        val timestampRef = itemView.findViewById<TextView>(R.id.timeStampId)
+        val deleteButtonRef = itemView.findViewById<ImageButton>(R.id.imageButtonId)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): viewHolder {
@@ -105,11 +106,6 @@ class GoalNoteAdapter(
 
 
 }
-
-
-
-
-
 
 
 

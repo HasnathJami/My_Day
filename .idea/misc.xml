@@ -7,13 +7,22 @@
         <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.26" />
         <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.1" />
         <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/drawable/menu_online_news.xml" value="0.1735" />
         <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/drawable/mydayintro.xml" value="0.1" />
-        <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/layout/activity_add_note.xml" value="0.1" />
+        <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/layout/activity_add_note.xml" value="0.2" />
+        <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/layout/activity_goal_note_main.xml" value="0.22" />
         <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/layout/activity_intro_screen.xml" value="0.1" />
-        <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/layout/activity_text.xml" value="0.11018518518518519" />
+        <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/layout/activity_whats_up_today_main.xml" value="0.15462962962962962" />
         <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/layout/content_add_note.xml" value="0.18333333333333332" />
         <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/layout/fragment_add_note_dialog.xml" value="0.3359375" />
         <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/layout/item_template.xml" value="0.22" />
+        <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/layout/item_template_for_whats_up_today.xml" value="0.25" />
+        <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/layout/nav_header.xml" value="0.22" />
+        <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/layout/nav_header_for_whats_up_activity.xml" value="0.25" />
+        <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/menu/icon_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/menu/icon_menu_for_whats_up_activity.xml" value="0.1259259259259259" />
         <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/menu/search_menu.xml" value="0.3026041666666667" />
         <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
         <entry key="..\:/Users/Hasnath Jami/AndroidStudioProjects/MyDay/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
