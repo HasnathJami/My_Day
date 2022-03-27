@@ -13,7 +13,7 @@ The project is built with Kotlin following the MVVM architecture. Besides, the R
 3. Deleting Task from Task List System
 4. Realtime Task Updating System with Recent Data and Time
 5. Task Searching System
-6. Current news data through API CALL
+6. Current News Data Through API CALL
 7. Read Famous Online News Paper Through Web View
 
 ### Languages: 
@@ -39,3 +39,6 @@ Android Studio
 8. Live Data  
 9. Room Database  
 10. Material UI Components
+11. Volley
+12. Glide
+13. WebView
