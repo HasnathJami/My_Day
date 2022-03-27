@@ -28,10 +28,25 @@ Android Studio
 ### Splash Screen:
 <img src="./Screenshots/1.png" width="300" height="500" title="Welcome Screen" /> 
 
+### Current World News System
+<img src="./Screenshots/1.png" width="300" height="500" title="Welcome Screen" /> <img src="./Screenshots/1.png" width="300" height="500" title="Welcome Screen" /> 
 
+### Task Schduling System
+<img src="./Screenshots/1.png" width="300" height="500" title="Welcome Screen" />  <img src="./Screenshots/1.png" width="300" height="500" title="Welcome Screen" /> 
 
-<img src="./Screenshots/2.png" width="300" height="500" title="Home Screen" />
-<img src="./Screenshots/3.png" width="300" height="500" title="Add Notes Screen" />  <img src="./Screenshots/4.png" width="300" height="500" title="Update and View Notes Screen" />
+#### Task Adding System
+<img src="./Screenshots/1.png" width="300" height="500" title="Welcome Screen" /> 
+
+#### Task Update System
+<img src="./Screenshots/1.png" width="300" height="500" title="Welcome Screen" /> 
+
+### Particular Task Searching System
+<img src="./Screenshots/1.png" width="300" height="500" title="Welcome Screen" /> 
+
+### Online News Reading System
+
+<img src="./Screenshots/2.png" width="300" height="500" title="Home Screen" /> <img src="./Screenshots/1.png" width="300" height="500" title="Welcome Screen" /> 
+
 
 
 ## Topics:
