@@ -34,10 +34,10 @@ Android Studio
 ### Task Scheduling System
 <img src="./Screenshots/4.png" width="400" height="700" title="" />  <img src="./Screenshots/5.png" width="400" height="700" title="" /> 
 
-#### Task Adding System
+### Task Adding System
 <img src="./Screenshots/6.png" width="400" height="700" title="" /> 
 
-#### Task Update System
+### Task Updating System
 <img src="./Screenshots/7.png" width="400" height="700" title="" /> 
 
 ### Particular Task Searching System
