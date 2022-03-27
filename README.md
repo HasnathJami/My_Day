@@ -1,8 +1,8 @@
 # Project Description
 
 
-My-Day is an android app about setting goals and task scheduling. Here, a user can set his goals by adding list of to-do tasks.
-He/she can update his regular task list and delete if needed.
+My-Day is an android app about setting goals and task scheduling and current world news system. Here, a user can set his goals by adding list of to-do tasks.
+He/she can update his regular task list and delete if needed. He/She can also search his regular task through keywords.
 Besides, all the tasks are added and updated instantly in RecyclerView with recent data and time using LiveData and Kotlin coroutines.
 The project is built with Kotlin following the MVVM architecture. Besides, the Room database is used for storing user data.
 
@@ -11,6 +11,9 @@ The project is built with Kotlin following the MVVM architecture. Besides, the R
 2. Adding New Task System
 3. Deleting Task from Task List System
 4. Realtime Task Updating System with Recent Data and Time
+5. Task Searching System
+6. Current news data through API CALL
+7. Read Famous Online News Paper Through Web View
 
 ### Languages: 
 Kotlin
